@@ -1,7 +1,7 @@
 require 'dotenv'
 require 'onesignal'
 require 'fileutils'
-require 'codeclimate-test-reporter'
+#require 'codeclimate-test-reporter'
 
 RSpec.configure do |config|
   config.expect_with :rspec do |expectations|
@@ -31,4 +31,4 @@ Onesignal.configure do |config|
   config.ios_device_test_type = 2
 end
 
-CodeClimate::TestReporter.start
+#CodeClimate::TestReporter.start
